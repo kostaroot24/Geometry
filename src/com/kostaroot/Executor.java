@@ -6,6 +6,7 @@ public class Executor {
 
     public void run(){
         Vertice3D vertice3D = new Vertice3D(1,2,3);
-        System.out.println("x= "+vertice3D.getX()+" y= "+vertice3D.getY());
+        System.out.println("x= "+vertice3D.getX()+" y= "+vertice3D.getZ());
+        System.out.println("Distance = "+vertice3D.getDistance(new Vertice3D(1,2,0)));
     }
 }
